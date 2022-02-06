@@ -6,10 +6,8 @@ public class Piece {
 	private Board board;
 	
 	
-	public Piece(Position position) {
-		super();
-		this.position = position;
-		//board null -> piece it's not on board
+	public Piece(Board board) {
+		board = this.board;
 	}
 	
 	protected Board getBoard() {
